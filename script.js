@@ -1,4 +1,4 @@
-//Esercizio della mail
+//1.Esercizio della mail
 
 //Array con mail autorizzate
 const email_autorizzate=['luca@gmail.com', 'mario@gmail.com', 'giulia@gmail.com'];
@@ -24,3 +24,9 @@ if(flag ==true){
 else{
     console.log('La tua mail NON è autorizzata, ci dispiace :(')
 }
+
+//2. Gioco dei dadi
+
+ //Generare due numeri casuali (uno del computer e uno dedll'utente)
+ let user_number= Math.floor(Math.random()*6+1);
+ let computer_number=Math.floor(Math.random()*6+1);
