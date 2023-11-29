@@ -16,3 +16,11 @@ for(let i=0; i>email_autorizzate.length; i++){
         flag=true;
     }
 }
+
+//Risposta: se la variabile è true la risposta è positiva, altrimenti non è autorizzata
+if(flag ==true){
+    console.log('La tua mail è autorizzata :)')
+}
+else{
+    console.log('La tua mail NON è autorizzata, ci dispiace :(')
+}
