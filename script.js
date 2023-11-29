@@ -30,3 +30,18 @@ else{
  //Generare due numeri casuali (uno del computer e uno dedll'utente)
  let user_number= Math.floor(Math.random()*6+1);
  let computer_number=Math.floor(Math.random()*6+1);
+
+ //Visualizziamo i numeri scelti
+ console.log(user_number);
+ console.log(computer_number);
+
+ //Il programma ti dice il risultato: hai vinto, hai perso o hai pareggiato
+ if(user_number>computer_number){
+    console.log('Hai vinto complimenti! :)');
+ }
+ else if(user_number<computer_number){
+    console.log('Oh no hai perso! :( ... La prossima volta sarai più fortunato');
+ }
+else{
+    console.log('Colpo di scena! Avete pareggiato');
+}
